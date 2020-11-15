@@ -22,3 +22,26 @@ body{
     width: 600px;
     height: 600px;
 }
+.blue {
+    grid-area: azul;
+    background-color: blue;
+    border-bottom-right-radius: 100%;
+}
+
+:red {
+     grid-area: vermelho;
+     background-color: red;
+     border-top-right-radius: 100%;    
+}
+
+.yeloow {
+
+    grid-area: amarelo;
+    background-color: yellow;
+    border-bottom-left-radius: 100%;
+}
+
+.selected {
+    opacity: 0.8;
+}
+
