@@ -11,37 +11,43 @@ body{
     align-items: center;
 }
 .genius{
-
     display: grid;
-    grid-template-areas: "green red yellow blue";
+    grid-template-areas: 'green red' 
+    'yellow blue';
     grid-gap: 10px;
     border: 1px solid #ffffff;
     background-color: #ffffff;
     border-radius: 100%;
-    margin-top: 0%;
     width: 600px;
     height: 600px;
 }
+
 .blue {
-    grid-area: azul;
+    grid-area: blue;
     background-color: blue;
     border-bottom-right-radius: 100%;
 }
 
-:red {
-     grid-area: vermelho;
+.red {
+     grid-area: red;
      background-color: red;
      border-top-right-radius: 100%;    
 }
 
-.yeloow {
+.yellow {
 
-    grid-area: amarelo;
+    grid-area: yellow;
     background-color: yellow;
     border-bottom-left-radius: 100%;
 }
 
+.green {
+    grid-area: green;
+    background-color: green;
+    border-top-left-radius: 100%;
+}
+
 .selected {
-    opacity: 0.8;
+    opacity: 0.4;
 }
 
